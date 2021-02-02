@@ -1,0 +1,23 @@
+/*=================================
+HTML file
+Developed by Nabalas©
+2021
+
+Bootstrap and fontawesome linked
+================================= */
+
+
+//Overwrite variables
+
+
+// Import bootstrap
+@import '../bootstrap/scss/bootstrap.scss';
+
+// Import fonts
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@400;700&family=Lato:wght@400;700&family=Quattrocento+Sans:wght@400;700&display=swap');
+
+$font-primary: 'Cantarell', sans-serif;
+$font-secondary: 'Lato', sans-serif;
+$font-alternative: 'Quattrocento Sans', sans-serif;
+
+//General
