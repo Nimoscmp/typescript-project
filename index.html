@@ -210,6 +210,14 @@ Bootstrap and fontawesome linked
 
     <script src="bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/load.js"></script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script>
+        System.config({
+            baseURL: '/',
+            defaultJSExtensions: true
+        });
+        System.import('js/main.js');
+    </script>
         
   </body>
   
