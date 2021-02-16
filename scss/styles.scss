@@ -76,6 +76,10 @@ $font-logo: 'Shadows Into Light', cursive;
     z-index: 10000;
 }
 
+.text-coolgray{
+    color: $coolgray !important;
+}
+
 //Header
 header{
     img{
@@ -95,7 +99,7 @@ header{
         }
 
         #call-us{
-            color: $sunburst !important;
+            color: $coolgray !important;
         }
     }
 }
@@ -263,6 +267,12 @@ footer{
     header{
         img{
             width: 4rem;
+        }
+
+        #boxModal{
+            #spanPhone{
+                font-size: 1rem !important;
+            }
         }
     }
 

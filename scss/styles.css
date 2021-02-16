@@ -11365,6 +11365,10 @@ fieldset:disabled .btn {
   z-index: 10000;
 }
 
+.text-coolgray {
+  color: #219ebc !important;
+}
+
 header img {
   width: 5rem;
 }
@@ -11384,7 +11388,7 @@ header .dropdown .dropdown-menu .dropdown-item:hover {
 }
 
 header .dropdown #call-us {
-  color: #fb8500 !important;
+  color: #219ebc !important;
 }
 
 main section #searchInfo h2, main section #searchInfo .h2 {
@@ -11520,6 +11524,9 @@ footer .container .policy:hover {
   }
   header img {
     width: 4rem;
+  }
+  header #boxModal #spanPhone {
+    font-size: 1rem !important;
   }
   .h-22, .h-45, .h-68 {
     height: 25%;
