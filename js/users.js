@@ -9,8 +9,9 @@ Developed by Nabalas©
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getUsers = exports.User = void 0;
 var User = /** @class */ (function () {
-    function User(_email, _password) {
+    function User(_email, _username, _password) {
         this._email = _email;
+        this._username = _username;
         this._password = _password;
     }
     Object.defineProperty(User.prototype, "email", {
@@ -19,6 +20,16 @@ var User = /** @class */ (function () {
         },
         set: function (address) {
             this._email = address;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    Object.defineProperty(User.prototype, "username", {
+        get: function () {
+            return this._username;
+        },
+        set: function (user_name) {
+            this._username = user_name;
         },
         enumerable: false,
         configurable: true

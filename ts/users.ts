@@ -8,7 +8,7 @@ Developed by Nabalas©
 
 export class User{
 
-    constructor(private _email:string, private _password:string){
+    constructor(private _email:string, private _username:string, private _password:string){
 
     }
 
@@ -18,6 +18,14 @@ export class User{
 
     set email(address){
         this._email = address;
+    }
+
+    get username():string{
+        return this._username;
+    }
+
+    set username(user_name){
+        this._username = user_name;
     }
 
     get password():string{
