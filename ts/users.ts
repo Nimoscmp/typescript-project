@@ -39,7 +39,7 @@ export class User{
 
 let users:User[] = [];
 
-let user1 = new User('usuario@hotmail.es','contra111');
+let user1 = new User('usuario@hotmail.es', 'Nicolas', 'contra111');
 
 users.push(user1);
 

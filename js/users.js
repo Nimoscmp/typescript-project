@@ -48,7 +48,7 @@ var User = /** @class */ (function () {
 }());
 exports.User = User;
 var users = [];
-var user1 = new User('usuario@hotmail.es', 'contra111');
+var user1 = new User('usuario@hotmail.es', 'Nicolas', 'contra111');
 users.push(user1);
 function getUsers() {
     return users;
