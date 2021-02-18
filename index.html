@@ -52,7 +52,8 @@ Bootstrap and fontawesome linked
                     <div class="col-6 d-flex justify-content-around align-items-center">
                         <ul class="nav">
                             <li class="nav-item px-2 px-lg-3 py-1"><a href="#" class="btn btn-outline-secondary rounded-pill">Nosotros</a></li>
-                            <li class="nav-item px-2 px-lg-3 py-1"><a href="#" class="btn btn-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#signInModal" id="sing-in-desk">Iniciar sesión</a></li>                    
+                            <li class="nav-item px-2 px-lg-3 py-1"><a href="#" class="btn btn-secondary rounded-pill" data-bs-toggle="modal" data-bs-target="#signInModal" id="sign-in-desk">Iniciar sesión</a></li>                    
+                            <li class="nav-item px-2 px-lg-3 py-1 d-none"><a href="#" class="btn btn-secondary rounded-pill" id="sign-out-desk">Cerrar sesión</a></li>                    
                             <li class="nav-item px-2 px-lg-3 py-1"><a href="#" class="btn btn-primary rounded-pill" data-bs-toggle="modal" data-bs-target="#callUsModal">Llámanos
                                 <i class="fas fa-phone ms-1"></i>
                             </a></li>
@@ -78,6 +79,7 @@ Bootstrap and fontawesome linked
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item text-primary" id="sign-in-mob" href="#" data-bs-toggle="modal" data-bs-target="#signInModal">Iniciar sesión</a></li>
+                            <li class="d-none"><a class="dropdown-item text-primary" id="sign-out-mob" href="#">Cerrar sesión</a></li>
                             <li><a class="dropdown-item" href="#">Nosotros</a></li>
                         </ul>
                     </div>
@@ -168,7 +170,7 @@ Bootstrap and fontawesome linked
                         <h2 class="h2 col-12 py-2 text-center">¿Qué estás buscando?</h2>
                         <div class="row m-1" id="searchGroup">
                             <div class="col-12 d-flex justify-content-center px-1 py-1" id="searchDiv">
-                                <input type="text" class="form-control m-1" id="searchInput" placeholder="&#x1f50d;  Escribe tu consulta" class="">
+                                <input type="text" class="form-control m-1" id="searchInput" placeholder="Escribe tu consulta" class="">
                             </div>
                             <div class="col-12 col-sm-2 offset-0 offset-sm-10 px-1 py-1 d-flex justify-content-center justify-content-sm-end">
                                 <button type="button" class="btn btn-primary rounded-pill m-1 px-4" id="searchButton">Buscar</button>
@@ -183,13 +185,22 @@ Bootstrap and fontawesome linked
                         <div class="col-11 col-md-5" id="left">
                             <div class="row h-100 d-flex justify-content-center">
                                 <div class="h-45 d-flex justify-content-center m-1">
-                                    <h6 class="m-1 align-self-center">Nube</h6>
+                                    <h6 class="m-1 align-self-center options-title">
+                                        <i class="fas fa-cloud"></i>
+                                        Cloud
+                                    </h6>
                                 </div>
                                 <div class="h-45 d-flex justify-content-center m-1">
-                                    <h6 class="m-1 align-self-center">Análisis</h6>
+                                    <h6 class="m-1 align-self-center options-title">
+                                        <i class="fas fa-diagnoses"></i>
+                                        Análisis
+                                    </h6>
                                 </div>
                                 <div class="h-45 d-flex justify-content-center m-1">
-                                    <h6 class="m-1 align-self-center">Bases de datos</h6>
+                                    <h6 class="m-1 align-self-center options-title">
+                                        <i class="fas fa-database"></i>
+                                        Bases de datos
+                                    </h6>
                                 </div>
                             </div>
                         </div>
@@ -197,13 +208,22 @@ Bootstrap and fontawesome linked
                         <div class="col-11 col-md-6" id="right">
                             <div class="row h-100 d-flex justify-content-center">
                                 <div class="h-68 d-flex justify-content-center m-1">
-                                    <h6 class="m-1 align-self-center">Nube</h6>
+                                    <h6 class="m-1 align-self-center options-title">
+                                        <i class="fas fa-network-wired"></i>
+                                        Web
+                                    </h6>
                                 </div>
                                 <div class="h-22 d-flex justify-content-center m-1">
-                                    <h6 class="m-1 align-self-center">Análisis</h6>
+                                    <h6 class="m-1 align-self-center options-title">
+                                        <i class="fas fa-marker"></i>
+                                        Diseño
+                                    </h6>
                                 </div>
                                 <div class="h-22 d-flex justify-content-center m-1">
-                                    <h6 class="m-1 align-self-center">Bases de datos</h6>
+                                    <h6 class="m-1 align-self-center options-title">
+                                        <i class="fas fa-camera"></i>
+                                        Fotografía
+                                    </h6>
                                 </div>
                             </div>
                         </div>
