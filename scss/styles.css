@@ -11412,6 +11412,10 @@ main section #searchInfo #searchGroup #searchButton {
           transform: translateY(-3.375rem);
 }
 
+main section #squaresInfo .options-title {
+  font-size: 1.25rem;
+}
+
 main section #squaresInfo #left div div {
   border-radius: 1rem;
 }
